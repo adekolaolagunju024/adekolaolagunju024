@@ -19,7 +19,7 @@
 
 ## About
 
-MSc Computer Science & Technology — **Distinction**, Ulster University (2025). I design and build AI systems, cloud infrastructure, and data platforms — from research through to production deployment. Background spans deep learning, NLP, generative AI, Azure/AWS cloud engineering, full-stack development, and enterprise data pipelines.
+MSc Computer Science & Technology  **Distinction**, Ulster University (2025). I design and build AI systems, cloud infrastructure, and data platforms from research through to production deployment. Background spans deep learning, NLP, generative AI, Azure/AWS cloud engineering, full-stack development, and enterprise data pipelines.
 
 Four years of enterprise technology and systems delivery across regulated healthcare and commercial environments. Currently teaching AI engineering and cloud architecture at South & City College Birmingham.
 
