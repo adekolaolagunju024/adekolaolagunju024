@@ -9,7 +9,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adekola-olagunju-04126b6b)&nbsp;
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adekolaolagunju086@gmail.com)&nbsp;
-[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-UK%20Roles-2ea44f?style=for-the-badge)](https://linkedin.com/in/adekola-olagunju-04126b6b)
+[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-UK%20Roles-2ea44f?style=for-the-badge)](https://linkedin.com/in/adekola-olagunju-04126b6b)&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0D6EAC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adekolaolagunju024.github.io)
 
 </div>
 
@@ -38,14 +39,13 @@ Four years of enterprise technology and systems delivery across regulated health
 #### 🫀 Cardiovascular Disease Prediction
 [![Repo](https://img.shields.io/badge/MSc_Dissertation-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/AI-Cardiovascular-Disease-Prediction)
 
-End-to-end deep learning system on the **PTB-XL dataset (21,837 clinical ECG records)**. Multimodal 1D-CNN architecture combining 12-lead ECG signals with patient demographic features via late-fusion. Patient-level data splitting to prevent leakage and ensure clinically realistic evaluation.
+End-to-end deep learning on the **PTB-XL dataset (21,837 clinical ECG records)**. Multimodal 1D-CNN architecture combining 12-lead ECG signals with patient demographic features via late-fusion. Patient-level data splitting prevents leakage and ensures clinically realistic evaluation.
 
 **Results:** `AUROC 0.951` urgent-case triage &nbsp;·&nbsp; `macro-AUROC 0.922` multi-label diagnosis
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/CNN_+_Multimodal-555?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -53,14 +53,13 @@ End-to-end deep learning system on the **PTB-XL dataset (21,837 clinical ECG rec
 #### 🔍 Document Intelligence — RAG Q&A
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/doc-intelligence)
 
-Production RAG pipeline — sentence-transformers generate embeddings stored in FAISS; Azure OpenAI GPT-4 produces grounded cited answers via a LangChain conversational chain. FastAPI endpoint, Docker deployment, CI/CD.
+Production RAG pipeline — sentence-transformers + FAISS vector search + Azure OpenAI GPT-4 with grounded cited answers via LangChain. FastAPI endpoint, Docker deployment, GitHub Actions CI/CD.
 
 **Result:** `34% recall@10 improvement` over BM25 baseline
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
 ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 </tr>
@@ -70,7 +69,7 @@ Production RAG pipeline — sentence-transformers generate embeddings stored in 
 #### 📝 NLP Text Classification Pipeline
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/nlp-classifier)
 
-spaCy preprocessing → TF-IDF + LinearSVC → Hugging Face zero-shot fallback. Full evaluation suite, FastAPI inference endpoint, Docker deployment, GitHub Actions CI with Snyk and Trivy scanning.
+spaCy preprocessing → TF-IDF + LinearSVC → Hugging Face zero-shot fallback. Full evaluation suite, FastAPI inference endpoint, Docker, GitHub Actions CI with Snyk and Trivy.
 
 **Result:** `81% accuracy` on domain-specific classification
 
@@ -117,7 +116,7 @@ Modular Terraform IaC — VPC, EKS auto-scaling cluster, RDS PostgreSQL Multi-AZ
 #### 🔵 Azure Pipelines — .NET Core
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/pipelines-dotnet-core)
 
-ASP.NET Core MVC with Azure DevOps CI/CD — automated build, test integration, and controlled deployment to Azure for .NET workloads.
+ASP.NET Core MVC with Azure DevOps CI/CD — automated build, test integration, and controlled deployment pipeline for .NET workloads on Azure.
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
@@ -129,7 +128,7 @@ ASP.NET Core MVC with Azure DevOps CI/CD — automated build, test integration, 
 #### 🖥️ GitHub Desktop Tutorial
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/desktop-tutorial)
 
-Getting started with GitHub Desktop — version control workflow fundamentals including branching, committing, and pull requests.
+Version control workflow fundamentals — branching, committing, and pull requests using GitHub Desktop.
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -147,7 +146,7 @@ Getting started with GitHub Desktop — version control workflow fundamentals in
 #### 💰 Financial Data API
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/financial-api)
 
-Production REST API — async SQLAlchemy ORM, JWT auth, portfolio P&L tracking, transaction execution. GitHub Actions CI/CD: pytest → Trivy → ECR push → Helm deploy to AWS EKS.
+Production REST API — async SQLAlchemy ORM, JWT auth, portfolio P&L tracking, transaction execution. GitHub Actions: pytest → Trivy → ECR push → Helm deploy to AWS EKS.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -159,7 +158,7 @@ Production REST API — async SQLAlchemy ORM, JWT auth, portfolio P&L tracking, 
 #### 📈 React Trading Dashboard
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/trading-dashboard)
 
-TypeScript frontend — Redux Toolkit, Recharts P&L visualisation, JWT auth, auto-refresh polling, trade execution panel. Full Jest + React Testing Library test suite.
+TypeScript frontend — Redux Toolkit, Recharts P&L visualisation, JWT auth with Axios interceptors, auto-refresh, trade execution panel. Full Jest test suite.
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -168,24 +167,36 @@ TypeScript frontend — Redux Toolkit, Recharts P&L visualisation, JWT auth, aut
 </td>
 <td width="33%" valign="top">
 
-#### 📸 PhotoShare App
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/photo-share-app-final)
+#### 📅 Appointment Booking API
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/appointment-booking-api)
 
-Scalable cloud-native media sharing application — REST APIs, role-based access control, secure configuration management, and CI/CD deployment workflows on Azure.
+Express.js REST API with MVC controller pattern, versioned endpoints, and MongoDB/Mongoose integration. Built while learning Node.js backend fundamentals.
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
+#### 📸 PhotoShare App
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/photo-share-app-final)
+
+Cloud-native media sharing app — REST APIs, role-based access control, secure configuration, and CI/CD deployment on Azure.
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+</td>
+<td width="33%" valign="top">
+
 #### 👶 BabyWatcher
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/babywatcher)
 
-TypeScript application for baby monitoring and activity tracking — real-time updates, data persistence, and a clean responsive interface.
+TypeScript baby monitoring and activity tracking application — real-time updates and responsive interface.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -196,34 +207,24 @@ TypeScript application for baby monitoring and activity tracking — real-time u
 #### 🏪 Vendor Mate
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/vendor-mate)
 
-TypeScript vendor management application — supplier tracking, product catalogues, and operational workflow management.
+Vendor management application — supplier tracking, product catalogues, and operational workflow management.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-</td>
-<td width="33%" valign="top">
-
-#### 🔐 Password Generator
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/Password-Generator)
-
-Secure password generator — customisable length, character sets, and strength indicator. Clean, functional front-end utility.
-
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-#### 📸 PhotoShare App (v2)
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/photo-share-app25)
+#### 🔐 Password Generator
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/Password-Generator)
 
-Updated iteration of the PhotoShare platform with extended features and improved architecture.
+Secure password generator — customisable length, character sets, and strength indicator.
 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </td>
 <td width="33%" valign="top">
@@ -231,13 +232,12 @@ Updated iteration of the PhotoShare platform with extended features and improved
 #### 📚 Week 5 Practice
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/week5-prac)
 
-Practice exercises and coursework from MSc module work — demonstrating progression through the programme.
+Practice exercises from MSc backend module coursework — demonstrating progression through the programme.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </td>
-<td width="33%" valign="top">
-</td>
+<td width="33%" valign="top"></td>
 </tr>
 </table>
 
@@ -284,9 +284,9 @@ Practice exercises and coursework from MSc module work — demonstrating progres
 
 **Development**
 - Python (FastAPI · Flask)
+- Node.js · Express.js
 - C# (ASP.NET Core · .NET)
-- React · TypeScript
-- Redux · Tailwind CSS
+- React · TypeScript · Redux
 - REST APIs · Git
 - Agile · TDD · SOLID
 
