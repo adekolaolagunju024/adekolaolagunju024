@@ -19,7 +19,7 @@
 
 ## About
 
-MSc Computer Science & Technology  **Distinction**, Ulster University (2025). I design and build AI systems, cloud infrastructure, and data platforms from research through to production deployment. Background spans deep learning, NLP, generative AI, Azure/AWS cloud engineering, full-stack development, and enterprise data pipelines.
+MSc Computer Science & Technology — **Distinction**, Ulster University (2025). I design and build AI systems, cloud infrastructure, and data platforms — from research through to production deployment. Background spans deep learning, NLP, generative AI, Azure/AWS cloud engineering, full-stack development, and enterprise data pipelines.
 
 Four years of enterprise technology and systems delivery across regulated healthcare and commercial environments. Currently teaching AI engineering and cloud architecture at South & City College Birmingham.
 
@@ -35,13 +35,12 @@ Four years of enterprise technology and systems delivery across regulated health
 <tr>
 <td width="50%" valign="top">
 
-#### 🫀 Cardiovascular Disease Prediction — MSc
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/AI-Cardiovascular-Disease-Prediction)
+#### 🫀 Cardiovascular Disease Prediction
+[![Repo](https://img.shields.io/badge/MSc_Dissertation-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/AI-Cardiovascular-Disease-Prediction)
 
 End-to-end deep learning system on the **PTB-XL dataset (21,837 clinical ECG records)**. Multimodal 1D-CNN architecture combining 12-lead ECG signals with patient demographic features via late-fusion. Patient-level data splitting to prevent leakage and ensure clinically realistic evaluation.
 
-**Results:**
-`AUROC 0.951` urgent-case triage &nbsp;·&nbsp; `macro-AUROC 0.922` multi-label diagnosis
+**Results:** `AUROC 0.951` urgent-case triage &nbsp;·&nbsp; `macro-AUROC 0.922` multi-label diagnosis
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -54,9 +53,9 @@ End-to-end deep learning system on the **PTB-XL dataset (21,837 clinical ECG rec
 #### 🔍 Document Intelligence — RAG Q&A
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/doc-intelligence)
 
-Production RAG pipeline for document Q&A. Sentence-transformers generate embeddings stored in FAISS; Azure OpenAI GPT-4 produces grounded, cited answers via a LangChain conversational chain. Deployed as a FastAPI endpoint in Docker with CI/CD.
+Production RAG pipeline — sentence-transformers generate embeddings stored in FAISS; Azure OpenAI GPT-4 produces grounded cited answers via a LangChain conversational chain. FastAPI endpoint, Docker deployment, CI/CD.
 
-**Result:** `34% recall@10 improvement` over BM25 keyword baseline
+**Result:** `34% recall@10 improvement` over BM25 baseline
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
 ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
@@ -71,14 +70,13 @@ Production RAG pipeline for document Q&A. Sentence-transformers generate embeddi
 #### 📝 NLP Text Classification Pipeline
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/nlp-classifier)
 
-spaCy preprocessing → TF-IDF + LinearSVC → Hugging Face zero-shot fallback for low-resource categories. Full evaluation suite (F1, ROC-AUC, confusion matrix), FastAPI inference endpoint, Docker deployment, GitHub Actions CI with Snyk and Trivy scanning.
+spaCy preprocessing → TF-IDF + LinearSVC → Hugging Face zero-shot fallback. Full evaluation suite, FastAPI inference endpoint, Docker deployment, GitHub Actions CI with Snyk and Trivy scanning.
 
 **Result:** `81% accuracy` on domain-specific classification
 
 ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -86,20 +84,19 @@ spaCy preprocessing → TF-IDF + LinearSVC → Hugging Face zero-shot fallback f
 #### 📊 Azure Big Data Pipeline — Synapse
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/azure-big-data-pipeline-synapse)
 
-Cloud-native analytics pipeline on Azure. ADF ingests NHS nutrition and DfE education datasets into ADLS Gen2; Synapse serverless SQL handles transformation and analysis across **15,000+ joined records**. Findings support regional policy and planning decisions across England.
+Cloud-native Azure analytics pipeline. ADF ingests NHS nutrition and DfE education datasets into ADLS Gen2; Synapse serverless SQL analyses **15,000+ joined records** for regional policy insights across England.
 
-**Result:** `r = 0.61` nutrition–attainment correlation across English regions
+**Result:** `r = 0.61` nutrition–attainment correlation
 
 ![Azure Synapse](https://img.shields.io/badge/Azure_Synapse-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![ADF](https://img.shields.io/badge/Data_Factory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![ADLS](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![SQL](https://img.shields.io/badge/Synapse_SQL-4479A1?style=flat-square)
 
 </td>
 </tr>
 </table>
 
-### ☁️ Cloud, DevOps & Full-Stack
+### ☁️ Cloud, DevOps & Infrastructure
 
 <table width="100%">
 <tr>
@@ -108,7 +105,7 @@ Cloud-native analytics pipeline on Azure. ADF ingests NHS nutrition and DfE educ
 #### 🏗️ AWS Terraform + EKS
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/aws-terraform-eks)
 
-Modular Terraform IaC — VPC, EKS auto-scaling cluster, RDS PostgreSQL Multi-AZ, ECR, S3, IAM roles for service accounts, CloudWatch dashboards. Remote state in S3 with DynamoDB locking.
+Modular Terraform IaC — VPC, EKS auto-scaling cluster, RDS PostgreSQL Multi-AZ, ECR, S3, IAM roles, CloudWatch dashboards. Remote state in S3 with DynamoDB locking.
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
@@ -117,10 +114,40 @@ Modular Terraform IaC — VPC, EKS auto-scaling cluster, RDS PostgreSQL Multi-AZ
 </td>
 <td width="33%" valign="top">
 
+#### 🔵 Azure Pipelines — .NET Core
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/pipelines-dotnet-core)
+
+ASP.NET Core MVC with Azure DevOps CI/CD — automated build, test integration, and controlled deployment to Azure for .NET workloads.
+
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td width="33%" valign="top">
+
+#### 🖥️ GitHub Desktop Tutorial
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/desktop-tutorial)
+
+Getting started with GitHub Desktop — version control workflow fundamentals including branching, committing, and pull requests.
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+### 💹 Full-Stack & Web Applications
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
 #### 💰 Financial Data API
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/financial-api)
 
-Production REST API — async SQLAlchemy ORM, JWT auth, portfolio P&L tracking, transaction execution. GitHub Actions CI/CD: pytest → Trivy scan → ECR push → Helm deploy to AWS EKS.
+Production REST API — async SQLAlchemy ORM, JWT auth, portfolio P&L tracking, transaction execution. GitHub Actions CI/CD: pytest → Trivy → ECR push → Helm deploy to AWS EKS.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -132,25 +159,47 @@ Production REST API — async SQLAlchemy ORM, JWT auth, portfolio P&L tracking, 
 #### 📈 React Trading Dashboard
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/trading-dashboard)
 
-TypeScript frontend — Redux Toolkit state management, Recharts P&L charts, JWT auth with Axios interceptors, auto-refresh polling, trade execution panel. Full Jest + React Testing Library test suite.
+TypeScript frontend — Redux Toolkit, Recharts P&L visualisation, JWT auth, auto-refresh polling, trade execution panel. Full Jest + React Testing Library test suite.
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
 
 </td>
+<td width="33%" valign="top">
+
+#### 📸 PhotoShare App
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/photo-share-app-final)
+
+Scalable cloud-native media sharing application — REST APIs, role-based access control, secure configuration management, and CI/CD deployment workflows on Azure.
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+</td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-#### 🔵 Azure Pipelines — .NET Core
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/pipelines-dotnet-core)
+#### 👶 BabyWatcher
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/babywatcher)
 
-ASP.NET Core MVC application with Azure DevOps CI/CD — automated build, test integration, and deployment pipeline for .NET workloads on Azure.
+TypeScript application for baby monitoring and activity tracking — real-time updates, data persistence, and a clean responsive interface.
 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td width="33%" valign="top">
+
+#### 🏪 Vendor Mate
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/vendor-mate)
+
+TypeScript vendor management application — supplier tracking, product catalogues, and operational workflow management.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </td>
 <td width="33%" valign="top">
@@ -158,24 +207,36 @@ ASP.NET Core MVC application with Azure DevOps CI/CD — automated build, test i
 #### 🔐 Password Generator
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/Password-Generator)
 
-Secure password generator built with CSS/HTML/JS — customisable length, character sets, and strength indicator. A clean, functional utility demonstrating front-end fundamentals.
+Secure password generator — customisable length, character sets, and strength indicator. Clean, functional front-end utility.
 
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 
-#### 📸 PhotoShare App *(private)*
-Cloud-native media sharing application built with Flask, JavaScript, and Azure services. REST APIs, role-based access control, secure configuration, and CI/CD deployment workflows.
+#### 📸 PhotoShare App (v2)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/photo-share-app25)
 
-*Source kept private — available on request*
+Updated iteration of the PhotoShare platform with extended features and improved architecture.
 
-![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+</td>
+<td width="33%" valign="top">
+
+#### 📚 Week 5 Practice
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adekolaolagunju024/week5-prac)
+
+Practice exercises and coursework from MSc module work — demonstrating progression through the programme.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+<td width="33%" valign="top">
 </td>
 </tr>
 </table>
